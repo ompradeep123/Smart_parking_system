@@ -49,9 +49,7 @@ const Login: React.FC = () => {
             Email Address
           </label>
           <div className="relative">
-            <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-              <Mail size={18} className="text-gray-400" />
-            </div>
+            
             <input
               id="email"
               type="email"
@@ -69,9 +67,7 @@ const Login: React.FC = () => {
             Password
           </label>
           <div className="relative">
-            <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-              <Lock size={18} className="text-gray-400" />
-            </div>
+            
             <input
               id="password"
               type="password"

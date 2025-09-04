@@ -58,9 +58,7 @@ const Register: React.FC = () => {
             Full Name
           </label>
           <div className="relative">
-            <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-              <User size={18} className="text-gray-400" />
-            </div>
+            
             <input
               id="name"
               type="text"
@@ -78,9 +76,7 @@ const Register: React.FC = () => {
             Email Address
           </label>
           <div className="relative">
-            <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-              <Mail size={18} className="text-gray-400" />
-            </div>
+           
             <input
               id="email"
               type="email"
@@ -98,9 +94,7 @@ const Register: React.FC = () => {
             Phone Number (Optional)
           </label>
           <div className="relative">
-            <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-              <Phone size={18} className="text-gray-400" />
-            </div>
+            
             <input
               id="phone"
               type="tel"
@@ -118,9 +112,7 @@ const Register: React.FC = () => {
               Password
             </label>
             <div className="relative">
-              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                <Lock size={18} className="text-gray-400" />
-              </div>
+              
               <input
                 id="password"
                 type="password"
@@ -139,9 +131,7 @@ const Register: React.FC = () => {
               Confirm Password
             </label>
             <div className="relative">
-              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                <Lock size={18} className="text-gray-400" />
-              </div>
+              
               <input
                 id="confirmPassword"
                 type="password"
